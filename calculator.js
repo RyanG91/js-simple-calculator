@@ -1,7 +1,14 @@
 class Calculator {
-  add(a, b) {
-    return a + b
+  add(a, ...args) {
+    let result = a
+    for (let arg of args) {
+      result += arg
+    }
+    return result
   }
+  // add(a, b) {
+  //   return a + b
+  // }
 
   subtract(a, b) {
     return a - b
