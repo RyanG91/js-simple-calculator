@@ -11,9 +11,16 @@ describe("Add", () => {
   })
 })
 
-  describe("Subtract", () => {
-    it("Should subtract two numbers", () => {
-      // eg subtract(10, 6) should be 4
-      assert.equal(4, c.subtract(10, 6))
-    })
+describe("Subtract", () => {
+  it("Should subtract two numbers", () => {
+    // eg subtract(10, 6) should be 4
+    assert.equal(4, c.subtract(10, 6))
   })
+})
+
+describe("Divide", () => {
+  it("Should divide two numbers", () => {
+    // eg divide(8, 4) should be 2
+    assert.equal(2, c.divide(8, 4))
+  })
+})
